@@ -1,0 +1,34 @@
+{
+  "name": "@linked-helper/hiring-question-ts",
+  "version": "1.0.0",
+  "description": "TS question (Bluebird definition problem)",
+  "scripts": {
+    "clear": "rimraf dist/ && rimraf build/",
+    "lint": "tslint -p .",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:Good-Proton/hiring_question_ts.git"
+  },
+  "keywords": [
+    "linkedhelper"
+  ],
+  "author": {
+    "name": "Linked Helper Team",
+    "email": "info@linkedhelper.com",
+    "web": "https://github.com/Good-Proton/hiring_question_ts"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Good-Proton/hiring_question_ts/issues"
+  },
+  "homepage": "https://github.com/Good-Proton/hiring_question_ts#readme",
+  "devDependencies": {
+    "@types/node": "^12.0.10",
+    "ts-node": "^8.3.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.5"
+  }
+}
